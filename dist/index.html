@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BikeFix — Ремонт велосипедов</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">BikeFix</div>
+    <nav class="nav">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="#form" class="btn">Записаться</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Профессиональный ремонт велосипедов в вашем городе</h1>
+      <p>От подкачки колёс до полной переборки — BikeFix вернёт вашему велу второе дыхание.</p>
+      <a href="#form" class="btn">Оставить заявку</a>
+    </div>
+    <div class="hero-img">
+      <!-- Место под картинку (ширина 500px, высота 400px) -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKXBmhreKHSxGCZ1wobnBCuOP72-3BcWqj_dJDteAj5DQdsZ4qyFnMKHuZ3QdWrURxUw&usqp=CAU" alt="Ремонт велосипеда" width="500" height="400">
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Наши услуги</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="https://www.extremal.kz/import_files/94/94a6c66c29b711e7acafdc0ea1e164d4_bb6e0ee69fab11e988321831bf30ed2b.jpeg" alt="Ремонт тормозов" width="270" height="200">
+        <h3>Ремонт тормозов</h3>
+        <p>Настройка, замена колодок, прокачка гидравлики.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://ae01.alicdn.com/kf/S846bcf38fce6474c9ebe61bb5e11dde4q.jpg" alt="Настройка передач" width="270" height="200">
+        <h3>Настройка передач</h3>
+        <p>Точная регулировка переключателей для идеального хода.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://cdn.sportmaster.ru/upload/content/mediahab/prod/98233d79-ebc3-4beb-97bb-cb49208d354e.png" alt="Полное ТО" width="270" height="200">
+        <h3>Полное ТО</h3>
+        <p>Полная диагностика, чистка и смазка всех узлов велосипеда.</p>
+      </div>
+      <div class="service-card">
+     <h3>Фреймсет: 1 — рама; 2 — вилка. Кокпит: 3 — рулевая колонка; 4 — вынос руля; 5 — манетки; 6 — седло; 7 — подседельный штырь. Трансмиссия: 8 — педали; 9 — каретка; 10 — цепи; 11 — система; 12 — шатуны; 13 — кассета/трещотка. Вилсет: 14 — колеса; 15 — спицы; 16 — обод; 17 — покрышки; 18 — втулки. Тормозная система: 19 — тормозные ручки; 20 — передний и задний тормоза Оглавление Фреймсет (рама и вилка) Кокпит (руль, седло) Трансмиссия Вилсет (колеса)</h3></div>
+    </div>
+    
+  </section>
+
+  <section id="prices" class="prices">
+    <h2>Цены</h2>
+    <table>
+      <tr><th>Услуга</th><th>Цена от</th></tr>
+      <tr><td>Настройка переключателей</td><td>800 ₽</td></tr>
+      <tr><td>Ремонт тормозов</td><td>900 ₽</td></tr>
+      <tr><td>Замена камеры/покрышки</td><td>600 ₽</td></tr>
+      <tr><td>Полное ТО</td><td>2500 ₽</td></tr>
+    </table>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <h2>Отзывы клиентов</h2>
+    <div class="review">
+      <p>«Отдал велик после сезона — сделали быстро, теперь катается как новый! Спасибо BikeFix!»</p>
+      <span>— Алексей, Cube Aim</span>
+    </div>
+    <div class="review">
+      <p>«Очень вежливые мастера, всё показали и объяснили. Теперь только сюда!»</p>
+      <span>— Мария, Merida Juliet</span>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <h2>Связаться с нами</h2>
+    <form id="form" class="contact-form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="tel" placeholder="Телефон" required>
+      <select>
+        <option>Тип велосипеда</option>
+        <option>Городской</option>
+        <option>Горный</option>
+        <option>Шоссейный</option>
+      </select>
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+    <div class="contact-info">
+      <p>📍 Адрес: г. Москва, ул. Велосипедная, 12</p>
+      <p>📞 Телефон: +7 (999) 123-45-67</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 BikeFix. Все права защищены.</p>
+  </footer>
+</body>
+</html>
+    
+  </body>
+  
+</html>
